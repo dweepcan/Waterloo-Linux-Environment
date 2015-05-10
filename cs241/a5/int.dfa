@@ -1,0 +1,182 @@
+11
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+13
+start
+invalid
+zero
+1
+x
+xx
+1x
+12
+127
+neg
+neg1
+neg12
+neg128
+start
+10
+zero
+1
+x
+xx
+1x
+12
+127
+neg1
+neg12
+neg128
+143
+start 0 zero
+start 1 1
+start 2 x
+start 3 x
+start 4 x
+start 5 x
+start 6 x
+start 7 x
+start 8 x
+start 9 x
+start - neg
+invalid 0 invalid 
+invalid 1 invalid
+invalid 2 invalid
+invalid 3 invalid
+invalid 4 invalid
+invalid 5 invalid
+invalid 6 invalid
+invalid 7 invalid
+invalid 8 invalid
+invalid 9 invalid
+invalid - invalid
+zero 0 invalid
+zero 1 invalid
+zero 2 invalid
+zero 3 invalid
+zero 4 invalid
+zero 5 invalid
+zero 6 invalid
+zero 7 invalid
+zero 8 invalid
+zero 9 invalid
+zero - invalid
+1 0 12
+1 1 12
+1 2 12
+1 3 1x
+1 4 1x
+1 5 1x
+1 6 1x
+1 7 1x
+1 8 1x
+1 9 1x
+1 - invalid
+x 0 xx
+x 1 xx
+x 2 xx
+x 3 xx
+x 4 xx
+x 5 xx
+x 6 xx
+x 7 xx
+x 8 xx
+x 9 xx
+x - invalid
+xx 0 invalid
+xx 1 invalid
+xx 2 invalid
+xx 3 invalid
+xx 4 invalid
+xx 5 invalid
+xx 6 invalid
+xx 7 invalid
+xx 8 invalid
+xx 9 invalid
+xx - invalid
+1x 0 invalid
+1x 1 invalid
+1x 2 invalid
+1x 3 invalid
+1x 4 invalid
+1x 5 invalid
+1x 6 invalid
+1x 7 invalid
+1x 8 invalid
+1x 9 invalid
+1x - invalid
+12 0 127
+12 1 127
+12 2 127
+12 3 127
+12 4 127
+12 5 127
+12 6 127
+12 7 127
+12 8 invalid
+12 9 invalid
+12 - invalid
+127 0 invalid
+127 1 invalid
+127 2 invalid
+127 3 invalid
+127 4 invalid
+127 5 invalid
+127 6 invalid
+127 7 invalid
+127 8 invalid
+127 9 invalid
+127 - invalid
+neg 0 invalid
+neg 1 neg1
+neg 2 x
+neg 3 x
+neg 4 x
+neg 5 x
+neg 6 x
+neg 7 x
+neg 8 x
+neg 9 x
+neg - invalid
+neg1 0 neg12
+neg1 1 neg12
+neg1 2 neg12
+neg1 3 1x
+neg1 4 1x
+neg1 5 1x
+neg1 6 1x
+neg1 7 1x
+neg1 8 1x
+neg1 9 1x
+neg1 - invalid
+neg12 0 neg128
+neg12 1 neg128
+neg12 2 neg128
+neg12 3 neg128
+neg12 4 neg128
+neg12 5 neg128
+neg12 6 neg128
+neg12 7 neg128
+neg12 8 neg128
+neg12 9 invalid
+neg12 - invalid
+neg128 0 invalid
+neg128 1 invalid
+neg128 2 invalid
+neg128 3 invalid
+neg128 4 invalid
+neg128 5 invalid
+neg128 6 invalid
+neg128 7 invalid
+neg128 8 invalid
+neg128 9 invalid
+neg128 - invalid

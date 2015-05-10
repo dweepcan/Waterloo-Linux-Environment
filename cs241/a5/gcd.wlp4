@@ -1,0 +1,13 @@
+int gcd(int a, int b) {
+	int answer = 1;
+	if((a % b) == 0) {
+		answer = b;
+	} else {
+		answer = gcd(b, a % b);
+	}
+	return answer;
+}
+
+int wain(int a, int b) {
+	return gcd(a, b);
+}

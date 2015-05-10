@@ -1,0 +1,33 @@
+2
+0
+1
+8
+start
+zero
+11mod
+01mod
+00mod
+20mod
+21mod
+10mod
+start
+2
+11mod
+21mod
+16
+start 0 zero
+start 1 11mod
+zero 0 zero
+zero 1 zero
+11mod 0 20mod
+11mod 1 01mod
+20mod 0 10mod
+20mod 1 21mod
+01mod 0 00mod
+01mod 1 11mod
+10mod 0 20mod
+10mod 1 01mod
+21mod 0 10mod
+21mod 1 21mod
+00mod 0 00mod
+00mod 1 11mod

@@ -1,0 +1,5 @@
+; load 1 into $4
+.word 0x00002014 ; lis $4
+.word 0x00000001 ; .word 1
+.word 0x00241820 ; add $1+$4 into $3
+.word 0x03e00008 ; return to OS $31

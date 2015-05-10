@@ -1,0 +1,6 @@
+.word 0x0022202a ; $4=1 if $1 < $2; 0 otherwise
+.word 0x10850002 ; if ($4 == $5) pc += 2
+.word 0x00451820 ; add $2+$5 into $3
+.word 0x03e00008 ; return to OS $31
+.word 0x00251820 ; add $1+$5 into $3
+.word 0x03e00008 ; return to OS $31

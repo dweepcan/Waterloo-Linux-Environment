@@ -1,0 +1,902 @@
+80
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+(
+)
+{
+}
+=
+!
+<
+>
++
+-
+*
+/
+%
+,
+;
+[
+]
+&
+10
+start
+id
+zero
+num
+invalid
+one
+not
+note
+elg
+elg2
+start
+7
+id
+zero
+num
+one
+elg
+elg2
+note
+800
+start a id
+start b id
+start c id
+start d id
+start e id
+start f id
+start g id
+start h id
+start i id
+start j id
+start k id
+start l id
+start m id
+start n id
+start o id
+start p id
+start q id
+start r id
+start s id
+start t id
+start u id
+start v id
+start w id
+start x id
+start y id
+start z id
+start A id
+start B id
+start C id
+start D id
+start E id
+start F id
+start G id
+start H id
+start I id
+start J id
+start K id
+start L id
+start M id
+start N id
+start O id
+start P id
+start Q id
+start R id
+start S id
+start T id
+start U id
+start V id
+start W id
+start X id
+start Y id
+start Z id
+start 0 zero
+start 1 num
+start 2 num
+start 3 num
+start 4 num
+start 5 num
+start 6 num
+start 7 num
+start 8 num
+start 9 num
+start ( one
+start ) one
+start { one
+start } one
+start = elg
+start ! not
+start < elg
+start > elg
+start + one
+start - one
+start * one
+start / one
+start % one
+start , one
+start ; one
+start [ one
+start ] one
+start & one
+id a id
+id b id
+id c id
+id d id
+id e id
+id f id
+id g id
+id h id
+id i id
+id j id
+id k id
+id l id
+id m id
+id n id
+id o id
+id p id
+id q id
+id r id
+id s id
+id t id
+id u id
+id v id
+id w id
+id x id
+id y id
+id z id
+id A id
+id B id
+id C id
+id D id
+id E id
+id F id
+id G id
+id H id
+id I id
+id J id
+id K id
+id L id
+id M id
+id N id
+id O id
+id P id
+id Q id
+id R id
+id S id
+id T id
+id U id
+id V id
+id W id
+id X id
+id Y id
+id Z id
+id 0 id
+id 1 id
+id 2 id
+id 3 id
+id 4 id
+id 5 id
+id 6 id
+id 7 id
+id 8 id
+id 9 id
+id ( invalid
+id ) invalid
+id { invalid
+id } invalid
+id = invalid
+id ! invalid
+id < invalid
+id > invalid
+id + invalid
+id - invalid
+id * invalid
+id / invalid
+id % invalid
+id , invalid
+id ; invalid
+id [ invalid
+id ] invalid
+id & invalid
+invalid a invalid
+invalid b invalid
+invalid c invalid
+invalid d invalid
+invalid e invalid
+invalid f invalid
+invalid g invalid
+invalid h invalid
+invalid i invalid
+invalid j invalid
+invalid k invalid
+invalid l invalid
+invalid m invalid
+invalid n invalid
+invalid o invalid
+invalid p invalid
+invalid q invalid
+invalid r invalid
+invalid s invalid
+invalid t invalid
+invalid u invalid
+invalid v invalid
+invalid w invalid
+invalid x invalid
+invalid y invalid
+invalid z invalid
+invalid A invalid
+invalid B invalid
+invalid C invalid
+invalid D invalid
+invalid E invalid
+invalid F invalid
+invalid G invalid
+invalid H invalid
+invalid I invalid
+invalid J invalid
+invalid K invalid
+invalid L invalid
+invalid M invalid
+invalid N invalid
+invalid O invalid
+invalid P invalid
+invalid Q invalid
+invalid R invalid
+invalid S invalid
+invalid T invalid
+invalid U invalid
+invalid V invalid
+invalid W invalid
+invalid X invalid
+invalid Y invalid
+invalid Z invalid
+invalid 0 invalid
+invalid 1 invalid
+invalid 2 invalid
+invalid 3 invalid
+invalid 4 invalid
+invalid 5 invalid
+invalid 6 invalid
+invalid 7 invalid
+invalid 8 invalid
+invalid 9 invalid
+invalid ( invalid
+invalid ) invalid
+invalid { invalid
+invalid } invalid
+invalid = invalid
+invalid ! invalid
+invalid < invalid
+invalid > invalid
+invalid + invalid
+invalid - invalid
+invalid * invalid
+invalid / invalid
+invalid % invalid
+invalid , invalid
+invalid ; invalid
+invalid [ invalid
+invalid ] invalid
+invalid & invalid
+zero a invalid
+zero b invalid
+zero c invalid
+zero d invalid
+zero e invalid
+zero f invalid
+zero g invalid
+zero h invalid
+zero i invalid
+zero j invalid
+zero k invalid
+zero l invalid
+zero m invalid
+zero n invalid
+zero o invalid
+zero p invalid
+zero q invalid
+zero r invalid
+zero s invalid
+zero t invalid
+zero u invalid
+zero v invalid
+zero w invalid
+zero x invalid
+zero y invalid
+zero z invalid
+zero A invalid
+zero B invalid
+zero C invalid
+zero D invalid
+zero E invalid
+zero F invalid
+zero G invalid
+zero H invalid
+zero I invalid
+zero J invalid
+zero K invalid
+zero L invalid
+zero M invalid
+zero N invalid
+zero O invalid
+zero P invalid
+zero Q invalid
+zero R invalid
+zero S invalid
+zero T invalid
+zero U invalid
+zero V invalid
+zero W invalid
+zero X invalid
+zero Y invalid
+zero Z invalid
+zero 0 invalid
+zero 1 invalid
+zero 2 invalid
+zero 3 invalid
+zero 4 invalid
+zero 5 invalid
+zero 6 invalid
+zero 7 invalid
+zero 8 invalid
+zero 9 invalid
+zero ( invalid
+zero ) invalid
+zero { invalid
+zero } invalid
+zero = invalid
+zero ! invalid
+zero < invalid
+zero > invalid
+zero + invalid
+zero - invalid
+zero * invalid
+zero / invalid
+zero % invalid
+zero , invalid
+zero ; invalid
+zero [ invalid
+zero ] invalid
+zero & invalid
+num a invalid
+num b invalid
+num c invalid
+num d invalid
+num e invalid
+num f invalid
+num g invalid
+num h invalid
+num i invalid
+num j invalid
+num k invalid
+num l invalid
+num m invalid
+num n invalid
+num o invalid
+num p invalid
+num q invalid
+num r invalid
+num s invalid
+num t invalid
+num u invalid
+num v invalid
+num w invalid
+num x invalid
+num y invalid
+num z invalid
+num A invalid
+num B invalid
+num C invalid
+num D invalid
+num E invalid
+num F invalid
+num G invalid
+num H invalid
+num I invalid
+num J invalid
+num K invalid
+num L invalid
+num M invalid
+num N invalid
+num O invalid
+num P invalid
+num Q invalid
+num R invalid
+num S invalid
+num T invalid
+num U invalid
+num V invalid
+num W invalid
+num X invalid
+num Y invalid
+num Z invalid
+num 0 num
+num 1 num
+num 2 num
+num 3 num
+num 4 num
+num 5 num
+num 6 num
+num 7 num
+num 8 num
+num 9 num
+num ( invalid
+num ) invalid
+num { invalid
+num } invalid
+num = invalid
+num ! invalid
+num < invalid
+num > invalid
+num + invalid
+num - invalid
+num * invalid
+num / invalid
+num % invalid
+num , invalid
+num ; invalid
+num [ invalid
+num ] invalid
+num & invalid
+one a invalid
+one b invalid
+one c invalid
+one d invalid
+one e invalid
+one f invalid
+one g invalid
+one h invalid
+one i invalid
+one j invalid
+one k invalid
+one l invalid
+one m invalid
+one n invalid
+one o invalid
+one p invalid
+one q invalid
+one r invalid
+one s invalid
+one t invalid
+one u invalid
+one v invalid
+one w invalid
+one x invalid
+one y invalid
+one z invalid
+one A invalid
+one B invalid
+one C invalid
+one D invalid
+one E invalid
+one F invalid
+one G invalid
+one H invalid
+one I invalid
+one J invalid
+one K invalid
+one L invalid
+one M invalid
+one N invalid
+one O invalid
+one P invalid
+one Q invalid
+one R invalid
+one S invalid
+one T invalid
+one U invalid
+one V invalid
+one W invalid
+one X invalid
+one Y invalid
+one Z invalid
+one 0 invalid
+one 1 invalid
+one 2 invalid
+one 3 invalid
+one 4 invalid
+one 5 invalid
+one 6 invalid
+one 7 invalid
+one 8 invalid
+one 9 invalid
+one ( invalid
+one ) invalid
+one { invalid
+one } invalid
+one = invalid
+one ! invalid
+one < invalid
+one > invalid
+one + invalid
+one - invalid
+one * invalid
+one / invalid
+one % invalid
+one , invalid
+one ; invalid
+one [ invalid
+one ] invalid
+one & invalid
+elg a invalid
+elg b invalid
+elg c invalid
+elg d invalid
+elg e invalid
+elg f invalid
+elg g invalid
+elg h invalid
+elg i invalid
+elg j invalid
+elg k invalid
+elg l invalid
+elg m invalid
+elg n invalid
+elg o invalid
+elg p invalid
+elg q invalid
+elg r invalid
+elg s invalid
+elg t invalid
+elg u invalid
+elg v invalid
+elg w invalid
+elg x invalid
+elg y invalid
+elg z invalid
+elg A invalid
+elg B invalid
+elg C invalid
+elg D invalid
+elg E invalid
+elg F invalid
+elg G invalid
+elg H invalid
+elg I invalid
+elg J invalid
+elg K invalid
+elg L invalid
+elg M invalid
+elg N invalid
+elg O invalid
+elg P invalid
+elg Q invalid
+elg R invalid
+elg S invalid
+elg T invalid
+elg U invalid
+elg V invalid
+elg W invalid
+elg X invalid
+elg Y invalid
+elg Z invalid
+elg 0 invalid
+elg 1 invalid
+elg 2 invalid
+elg 3 invalid
+elg 4 invalid
+elg 5 invalid
+elg 6 invalid
+elg 7 invalid
+elg 8 invalid
+elg 9 invalid
+elg ( invalid
+elg ) invalid
+elg { invalid
+elg } invalid
+elg = elg2
+elg ! invalid
+elg < invalid
+elg > invalid
+elg + invalid
+elg - invalid
+elg * invalid
+elg / invalid
+elg % invalid
+elg , invalid
+elg ; invalid
+elg [ invalid
+elg ] invalid
+elg & invalid
+elg2 a invalid
+elg2 b invalid
+elg2 c invalid
+elg2 d invalid
+elg2 e invalid
+elg2 f invalid
+elg2 g invalid
+elg2 h invalid
+elg2 i invalid
+elg2 j invalid
+elg2 k invalid
+elg2 l invalid
+elg2 m invalid
+elg2 n invalid
+elg2 o invalid
+elg2 p invalid
+elg2 q invalid
+elg2 r invalid
+elg2 s invalid
+elg2 t invalid
+elg2 u invalid
+elg2 v invalid
+elg2 w invalid
+elg2 x invalid
+elg2 y invalid
+elg2 z invalid
+elg2 A invalid
+elg2 B invalid
+elg2 C invalid
+elg2 D invalid
+elg2 E invalid
+elg2 F invalid
+elg2 G invalid
+elg2 H invalid
+elg2 I invalid
+elg2 J invalid
+elg2 K invalid
+elg2 L invalid
+elg2 M invalid
+elg2 N invalid
+elg2 O invalid
+elg2 P invalid
+elg2 Q invalid
+elg2 R invalid
+elg2 S invalid
+elg2 T invalid
+elg2 U invalid
+elg2 V invalid
+elg2 W invalid
+elg2 X invalid
+elg2 Y invalid
+elg2 Z invalid
+elg2 0 invalid
+elg2 1 invalid
+elg2 2 invalid
+elg2 3 invalid
+elg2 4 invalid
+elg2 5 invalid
+elg2 6 invalid
+elg2 7 invalid
+elg2 8 invalid
+elg2 9 invalid
+elg2 ( invalid
+elg2 ) invalid
+elg2 { invalid
+elg2 } invalid
+elg2 = invalid
+elg2 ! invalid
+elg2 < invalid
+elg2 > invalid
+elg2 + invalid
+elg2 - invalid
+elg2 * invalid
+elg2 / invalid
+elg2 % invalid
+elg2 , invalid
+elg2 ; invalid
+elg2 [ invalid
+elg2 ] invalid
+elg2 & invalid
+not a invalid
+not b invalid
+not c invalid
+not d invalid
+not e invalid
+not f invalid
+not g invalid
+not h invalid
+not i invalid
+not j invalid
+not k invalid
+not l invalid
+not m invalid
+not n invalid
+not o invalid
+not p invalid
+not q invalid
+not r invalid
+not s invalid
+not t invalid
+not u invalid
+not v invalid
+not w invalid
+not x invalid
+not y invalid
+not z invalid
+not A invalid
+not B invalid
+not C invalid
+not D invalid
+not E invalid
+not F invalid
+not G invalid
+not H invalid
+not I invalid
+not J invalid
+not K invalid
+not L invalid
+not M invalid
+not N invalid
+not O invalid
+not P invalid
+not Q invalid
+not R invalid
+not S invalid
+not T invalid
+not U invalid
+not V invalid
+not W invalid
+not X invalid
+not Y invalid
+not Z invalid
+not 0 invalid
+not 1 invalid
+not 2 invalid
+not 3 invalid
+not 4 invalid
+not 5 invalid
+not 6 invalid
+not 7 invalid
+not 8 invalid
+not 9 invalid
+not ( invalid
+not ) invalid
+not { invalid
+not } invalid
+not = note
+not ! invalid
+not < invalid
+not > invalid
+not + invalid
+not - invalid
+not * invalid
+not / invalid
+not % invalid
+not , invalid
+not ; invalid
+not [ invalid
+not ] invalid
+not & invalid
+note a invalid
+note b invalid
+note c invalid
+note d invalid
+note e invalid
+note f invalid
+note g invalid
+note h invalid
+note i invalid
+note j invalid
+note k invalid
+note l invalid
+note m invalid
+note n invalid
+note o invalid
+note p invalid
+note q invalid
+note r invalid
+note s invalid
+note t invalid
+note u invalid
+note v invalid
+note w invalid
+note x invalid
+note y invalid
+note z invalid
+note A invalid
+note B invalid
+note C invalid
+note D invalid
+note E invalid
+note F invalid
+note G invalid
+note H invalid
+note I invalid
+note J invalid
+note K invalid
+note L invalid
+note M invalid
+note N invalid
+note O invalid
+note P invalid
+note Q invalid
+note R invalid
+note S invalid
+note T invalid
+note U invalid
+note V invalid
+note W invalid
+note X invalid
+note Y invalid
+note Z invalid
+note 0 invalid
+note 1 invalid
+note 2 invalid
+note 3 invalid
+note 4 invalid
+note 5 invalid
+note 6 invalid
+note 7 invalid
+note 8 invalid
+note 9 invalid
+note ( invalid
+note ) invalid
+note { invalid
+note } invalid
+note = invalid
+note ! invalid
+note < invalid
+note > invalid
+note + invalid
+note - invalid
+note * invalid
+note / invalid
+note % invalid
+note , invalid
+note ; invalid
+note [ invalid
+note ] invalid
+note & invalid
