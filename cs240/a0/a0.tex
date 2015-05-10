@@ -71,9 +71,9 @@ At the top of this page is the URL to the assignment guidelines for CS240, it ca
 
 \begin{enumerate}[a)] 
 	\item If an assignment question asks you to design an algorithm, what must you do in addition to describing/writing the pseudocode for the algorithm? \\
-	\textbf{Solution:} If an assignment question asks you to design an algorithm, you must give a correctness proof/argument if it not immediately obvious, and include an analysis (usually of the running time), in addition to describing/writing the pseudocode for the algorithm.
+	{\bf Solution:} If an assignment question asks you to design an algorithm, you must give a correctness proof/argument if it not immediately obvious, and include an analysis (usually of the running time), in addition to describing/writing the pseudocode for the algorithm.
 	\item For programming questions, which function can you use to read input? \\ Which functions can you use to output the answer? \\
-	\textbf{Solution:} For programming questions, you can use {\bf cin} to read input, and use {\bf cout} to output the answer.
+	{\bf Solution:} For programming questions, you can use {\bf cin} to read input, and use {\bf cout} to output the answer.
 \end{enumerate}
 
 \section*{Problem 2 - Mathematics}
@@ -83,7 +83,7 @@ $$\bar{f}(n) := \sqrt {\sum_{i=0}^{\lg n} 4^i \left ( \frac{n_0}{2^i} \right )^{
 \\
 In order to practice this skill, write a proof showing: $$\sum_{i=1}^n i = \frac {n(n+1)} {2}$$
 \\
-\textbf{Solution:} We will prove this by induction. \\
+{\bf Solution:} We will prove this by induction. \\
 \underline{Base Case} \\
 For n=1 the equation is true, since $$\sum_{i=1}^1 i = 1 = \frac {1(1+1)} {2}$$
 \underline{Induction Hypothesis} \\
@@ -130,7 +130,36 @@ For example, if you were to insert a `M' into the tree below, it would be entere
     };
 \end{tikzpicture}\end{center}
 
-{\it Hint: For nodes with only one child, you may wish to use ``child[missing]'' for the non-existent child.}
+{\it Hint: For nodes with only one child, you may wish to use ``child[missing]'' for the non-existent child.} \\
+
+{\bf Solution:}
+
+\begin{center}\begin{tikzpicture}[
+  level distance=45 pt,
+  every node/.style={circle,draw},
+  level 1/.style={sibling distance=200 pt},
+  level 2/.style={sibling distance=100 pt},
+  level 3/.style={sibling distance=60 pt}
+]
+  \node {M$_0$}
+    child {node {F$_0$}
+      child {node {C$_0$}
+	child[missing]
+      	child {node {D$_0$}
+	  child[missing]
+	  child {node {E$_0$}}
+	}
+      }
+      child {node {I$_0$}}
+    }
+    child {node {T$_0$}
+      child {node {Q$_0$}}
+      child {node {W$_0$}
+      	child {node {W$_1$}}
+	child[missing]
+      }
+    };
+\end{tikzpicture}\end{center}
 
 %This starts a new page
 \clearpage
