@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.10)  10 MAY 2015 15:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.10)  10 MAY 2015 17:38
 entering extended mode
  %&-line parsing enabled.
 **a0.tex
@@ -490,8 +490,7 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 \Fld@listcount=\count126
-)
-No file a0.aux.
+) (./a0.aux)
 \openout1 = `a0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -508,6 +507,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
+
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
@@ -533,13 +533,14 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
+ (./a0.out)
+(./a0.out)
 \@outlinefile=\write4
 \openout4 = `a0.out'.
 
 \AtBeginShipoutBox=\box38
 LaTeX Font Info:    Try loading font information for U+msa on input line 45.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 45.
@@ -549,17 +550,17 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 147--150
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
 
-Overfull \hbox (4.15326pt too wide) in paragraph at lines 157--162
+Overfull \hbox (4.15326pt too wide) in paragraph at lines 159--164
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--170
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
 
  []
 
@@ -568,28 +569,25 @@ File: polar_bear.jpg Graphic file (type jpg)
  <use polar_bear.jpg> [3
 
 ]
-[4 <./polar_bear.jpg>] (./a0.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[4 <./polar_bear.jpg>] (./a0.aux) ) 
 Here is how much of TeX's memory you used:
- 13455 strings out of 493848
- 237603 string characters out of 1152823
- 291486 words of memory out of 3000000
+ 13461 strings out of 493848
+ 237645 string characters out of 1152823
+ 291533 words of memory out of 3000000
  16445 multiletter control sequences out of 15000+50000
  9714 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  56i,10n,65p,392b,949s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on a0.pdf (4 pages, 125500 bytes).
+</usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb>
+Output written on a0.pdf (4 pages, 125689 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
