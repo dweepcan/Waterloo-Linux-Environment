@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.10)  10 MAY 2015 19:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.10)  10 MAY 2015 19:47
 entering extended mode
  %&-line parsing enabled.
 **a0.tex
@@ -570,18 +570,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--205
  []
 
 
-Overfull \hbox (4.15326pt too wide) in paragraph at lines 212--217
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Overfull \hbox (13.06567pt too wide) in paragraph at lines 213--218
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--225
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
  []
 
 [4
 
-] <polar_bear.jpg, id=45, 321.2pt x 213.79875pt>
+] <polar_bear.jpg, id=44, 321.2pt x 213.79875pt>
 File: polar_bear.jpg Graphic file (type jpg)
  <use polar_bear.jpg>
 [5 <./polar_bear.jpg>] (./a0.aux) ) 
@@ -602,7 +607,7 @@ ive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on a0.pdf (5 pages, 137457 bytes).
+Output written on a0.pdf (5 pages, 137577 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
