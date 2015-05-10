@@ -71,9 +71,9 @@ At the top of this page is the URL to the assignment guidelines for CS240, it ca
 
 \begin{enumerate}[a)] 
 	\item If an assignment question asks you to design an algorithm, what must you do in addition to describing/writing the pseudocode for the algorithm? \\
-	If an assignment question asks you to design an algorithm, you must give a correctness proof/argument if it not immediately obvious, and include an analysis (usually of the running time), in addition to describing/writing the pseudocode for the algorithm.
+	\textbf{Solution:} If an assignment question asks you to design an algorithm, you must give a correctness proof/argument if it not immediately obvious, and include an analysis (usually of the running time), in addition to describing/writing the pseudocode for the algorithm.
 	\item For programming questions, which function can you use to read input? \\ Which functions can you use to output the answer? \\
-	For programming questions, you can use {\bf cin} to read input, and use {\bf cout} to output the answer.
+	\textbf{Solution:} For programming questions, you can use {\bf cin} to read input, and use {\bf cout} to output the answer.
 \end{enumerate}
 
 \section*{Problem 2 - Mathematics}
@@ -82,6 +82,19 @@ Example:
 $$\bar{f}(n) := \sqrt {\sum_{i=0}^{\lg n} 4^i \left ( \frac{n_0}{2^i} \right )^{\theta}}.$$
 \\
 In order to practice this skill, write a proof showing: $$\sum_{i=1}^n i = \frac {n(n+1)} {2}$$
+\\
+\textbf{Solution:} We will prove this by induction. \\
+\underline{Base Case} \\
+For n=1 the equation is true, since $$\sum_{i=1}^1 i = 1 = \frac {1(1+1)} {2}$$
+\underline{Induction Hypothesis} \\
+Assume the equation is true for $n = k$, for some $k \geq 1$ \\
+\underline{Induction Step} \\
+Prove that the equation is true for $n = k+1$
+$$\sum_{i=0}^{k+1} i = \sum_{i=0}^{k} i + (k+1)$$ 
+$$\sum_{i=0}^{k+1} i = \frac {k(k+1)} {2} + (k+1)\ \text{(by Induction Hypothesis)}$$
+$$\sum_{i=0}^{k+1} i = \frac {k(k+1)} {2} + \frac {2(k+1)} {2}$$
+$$\sum_{i=0}^{k+1} i = \frac {(k+1)(k+2)} {2} = \frac {(k+1)((k+1)+1)} {2}$$ \\
+Therefore, by induction the equation is true for all $n \geq 1$ \\
 
 \section*{Problem 3 - Trees}
 CS 240 introduces many tree data structures. Here is a balanced BST on 7 letters of the 
