@@ -85,16 +85,16 @@ In order to practice this skill, write a proof showing: $$\sum_{i=1}^n i = \frac
 \\
 {\bf Solution:} We will prove this by induction. \\
 \underline{Base Case} \\
-For n=1 the equation is true, since $$\sum_{i=1}^1 i = 1 = \frac {1(1+1)} {2}$$
+For n=1 the equation is true, since: $$\sum_{i=1}^1 i = 1 = \frac {1(1+1)} {2}$$
 \underline{Induction Hypothesis} \\
-Assume the equation is true for $n = k$, for some $k \geq 1$ \\
+Assume the equation is true for $n = k$, for some $k \geq 1$. \\
 \underline{Induction Step} \\
-Prove that the equation is true for $n = k+1$
+Prove that the equation is true for $n = k+1$.
 $$\sum_{i=0}^{k+1} i = \sum_{i=0}^{k} i + (k+1)$$ 
 $$\sum_{i=0}^{k+1} i = \frac {k(k+1)} {2} + (k+1)\ \text{(by Induction Hypothesis)}$$
 $$\sum_{i=0}^{k+1} i = \frac {k(k+1)} {2} + \frac {2(k+1)} {2}$$
 $$\sum_{i=0}^{k+1} i = \frac {(k+1)(k+2)} {2} = \frac {(k+1)((k+1)+1)} {2}$$ \\
-Therefore, by induction the equation is true for all $n \geq 1$ \\
+Therefore, by induction the equation is true for all $n \geq 1$.
 
 \section*{Problem 3 - Trees}
 CS 240 introduces many tree data structures. Here is a balanced BST on 7 letters of the 
@@ -111,28 +111,6 @@ letters:
 \end{enumerate}
 
 For example, if you were to insert a `M' into the tree below, it would be entered as M$_1$ and it would become the right child of I$_0$. Only show the resulting tree.
-
-\begin{center}\begin{tikzpicture}[
-  level distance=45 pt,
-  every node/.style={circle,draw},
-  level 1/.style={sibling distance=200 pt},
-  level 2/.style={sibling distance=100 pt},
-  level 3/.style={sibling distance=60 pt}
-]
-  \node {M$_0$}
-    child {node {F$_0$}
-      child {node {C$_0$}}
-      child {node {I$_0$}}
-    }
-    child {node {T$_0$}
-      child {node {Q$_0$}}
-      child {node {W$_0$}}
-    };
-\end{tikzpicture}\end{center}
-
-{\it Hint: For nodes with only one child, you may wish to use ``child[missing]'' for the non-existent child.} \\
-
-{\bf Solution:}
 
 \begin{center}\begin{tikzpicture}[
   level distance=45 pt,
@@ -168,9 +146,7 @@ For example, if you were to insert a `M' into the tree below, it would be entere
 \section*{Problem 4 - Plots}
 
 CS 240 also deals with many graphs and plots. Plot the following points below, the first one has already been done for you. Only show the resulting plot.\\
-Points: (2,7), (7,1), (4,5), (1,3), (3,2), (6,6), (0,9), (9,8), (8,0), (5,4) \\
-
-{\bf Solution:}
+Points: (2,7), (7,1), (4,5), (1,3), (3,2), (6,6), (0,9), (9,8), (8,0), (5,4)
 
 \begin{center}
 \begin{tikzpicture}
@@ -208,7 +184,6 @@ Fill in the table below with any animal you like.\\
  %r stands for right aligned column
  
  % More information on tables http://en.wikibooks.org/wiki/LaTeX/Tables
-{\bf Solution:} \\
 
 \begin{tabular}{ | l || r  | r | c | c |} \hline
   Animal's Name & Avg. Weight & Longevity & Avg. Temperature & Conservation Status  \\ \hline
@@ -231,6 +206,12 @@ in the table above.\\
         \includegraphics[scale=0.5]{polar_bear.jpg}
 \end{center}
 \caption{\label{figcaption} Polar bear}
+\end{figure}
+\begin{figure}
+\begin{center}
+        \includegraphics[scale=0.5]{african_elephant.jpg}
+\end{center}
+\caption{\label{figcaption2} African Elephant}
 \end{figure}
 
 \end{document}
